@@ -1,0 +1,7 @@
+node_modules
+request.rest
+att.txt
+.env
+build
+.DS_Store
+teste
