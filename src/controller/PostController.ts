@@ -1,12 +1,12 @@
 import { Request, Response } from "express"
-import { PostsBusiness } from "../business/PostsBusiness"
+import { PostsBusiness } from "../business/PostBusiness"
 import { ZodError } from "zod"
 import { BaseError } from "../errors/BaseError"
-import { CreatePostsSchema } from "../dtos/posts/createPosts.dto"
+import { CreatePostsSchema } from "../dtos/posts/createPost.dto"
 import { GetPostsSchema } from "../dtos/posts/getPosts.dto"
 import { EditPostsSchema } from "../dtos/posts/editPosts.dto"
 import { DeletePostsSchema } from "../dtos/posts/deletePosts.dto"
-import { LikeOrDislikeSchema } from "../dtos/posts/likeOrDislike.dto"
+import { LikeOrDislikeSchema } from "../dtos/posts/likeDislike.dto"
 
 
 export class PostsController {

@@ -1,9 +1,9 @@
 import express from "express";
-import { PostsController } from "../controller/PostsController";
-import { PostsBusiness } from "../business/PostsBusiness";
+import { PostsController } from "../controller/PostController";
+import { PostsBusiness } from "../business/PostBusiness";
 import { IdGenerator } from "../services/IdGenerator";
 import { TokenManager } from "../services/TokenManager";
-import { PostsDatabase } from "../database/PostsDatabase";
+import { PostsDatabase } from "../database/PostDatabase";
 
 export const postsRouter = express.Router();
 
