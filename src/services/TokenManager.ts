@@ -1,9 +1,8 @@
-import jwt from 'jsonwebtoken'
-import dotenv from 'dotenv'
+import jwt from 'jsonwebtoken';
+import dotenv from 'dotenv';
 import { TokenPayload } from '../models/User'
 
 dotenv.config()
-
 
 export class TokenManager {
     public createToken = (payload: TokenPayload): string => {
