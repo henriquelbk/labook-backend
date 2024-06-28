@@ -5,3 +5,4 @@ att.txt
 build
 .DS_Store
 teste
+*.db
