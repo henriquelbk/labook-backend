@@ -17,7 +17,3 @@ app.listen(process.env.PORT || 3003, () => {
 
 app.use("/users", userRouter)
 app.use("/posts", postsRouter)
-
-app.get("/ping", (req: Request, res: Response) => {
-  res.send("Pong!");
-});
